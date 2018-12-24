@@ -11,3 +11,8 @@ def printListInteger(list):
     for item in list:
         print("\t - " + str(item))
 
+def printDico(dictionarie):
+    print("Items in dictionarie (len: %d):"% len(dictionarie))
+    for k, v in dictionarie.items():
+        print("\t - " + "[" + str(k) + "]: " + str(v))
+
